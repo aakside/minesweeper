@@ -1,0 +1,45 @@
+body {
+  color: #3D453C;
+  background-color: #C4D4C1;
+}
+
+#grid_container {
+  position: relative;
+}
+
+.isometric {
+  position: absolute;
+}
+
+.grid_cell {
+  position: absolute;
+  -webkit-transform: skewY(-30deg) scaleY(1.16);
+  -moz-transform: skewY(-30deg) scaleY(1.16);
+  width: 48px;
+  height: 48px;
+  background-color: #E3D3C3;
+  font-size: 0.862em;
+  text-align: center;
+  border: 1px dotted #7a7;
+}
+
+.grid_cell:hover {
+  background-color: #E6DFD8;
+}
+
+.grid_cell_revealed {
+  position: absolute;
+  -webkit-transform: skewY(-30deg) scaleY(1.16);
+  -moz-transform: skewY(-30deg) scaleY(1.16);
+  width: 48px;
+  height: 48px;
+  background-color: #EBDED1;
+  font-size: 0.862em;
+  text-align: center;
+  border: 1px solid #7a7;
+}
+
+.isometric {
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+}
