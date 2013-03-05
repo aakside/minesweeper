@@ -26,6 +26,7 @@ a {
   font-size: 0.862em;
   text-align: center;
   border: 1px dotted #7a7;
+  opacity: 0.75;
 }
 
 .grid_cell:hover {
@@ -42,6 +43,7 @@ a {
   font-size: 0.862em;
   text-align: center;
   border: 1px solid #7a7;
+  opacity: 0.85;
 }
 
 .isometric {
