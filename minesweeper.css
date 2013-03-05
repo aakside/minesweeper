@@ -1,6 +1,11 @@
 body {
   color: #3D453C;
   background-color: #C4D4C1;
+  background: url("grass.png") #275E29 repeat fixed;
+}
+
+a {
+  color: #EBDED1;
 }
 
 #grid_container {
